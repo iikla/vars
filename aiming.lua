@@ -42,14 +42,14 @@ local AimingSettings = {
     Enabled = true,
     InternalEnabled = false, -- // Do not modify, for internal use only
 
-    VisibleCheck = true,
-    TeamCheck = true,
-    PlayerCheck = true,
-    FriendCheck = true,
-    ForcefieldCheck = true,
-    HealthCheck = true,
-    InvisibleCheck = true,
-    IgnoredCheck = true,
+    VisibleCheck = false,
+    TeamCheck = false,
+    PlayerCheck = false,
+    FriendCheck = false,
+    ForcefieldCheck = false,
+    HealthCheck = false,
+    InvisibleCheck = false,
+    IgnoredCheck = false,
 
     HitChance = 100,
     TargetPart = {"Head", "HumanoidRootPart"},
@@ -72,7 +72,7 @@ local AimingSettings = {
         Visible = true,
         Type = "Static",
         Scale = 60,
-        Sides = 12,
+        Sides = 80,
         Colour = Color3fromRGB(231, 84, 128),
         DynamicFOVConstant = 25
     },
@@ -102,8 +102,8 @@ local AimingSettings = {
         IgnoreLocalTeam = true,
 
         Players = {
-            LocalPlayer,
-            91318356
+            LocalPlayer
+            
         }
     }
 }
