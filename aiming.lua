@@ -52,7 +52,7 @@ local AimingSettings = {
     IgnoredCheck = false,
 
     HitChance = 100,
-    TargetPart = {"Head", "HumanoidRootPart"},
+    TargetPart = {"Head", "HumanoidRootPart", "UpperTorso", "LowerTorso", "LeftLowerLeg", "LeftUpperLeg", "RightLowerLeg", "RightUpperLeg", "LeftUpperArm", "LeftLowerArm", "RightUpperArm", "RightLowerArm"},
     RaycastIgnore = nil,
     Offset = Vector2new(),
     MaxDistance = 1000,
